@@ -21,7 +21,7 @@
         "autoprefixer": "10.4.2",
         "axios": "^0.27.2",
         "ckeditor5": "^43.2.0",
-        "ckeditor5-premium-features": "^43.2.0",
+        "ckeditor5-premium-features": "^44.2.0",
         "dayjs": "^1.11.7",
         "eslint": "^8.4.1",
         "eslint-plugin-vue": "^8.2.0",
