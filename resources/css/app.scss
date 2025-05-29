@@ -1,0 +1,45 @@
+/* Reset */
+@use 'tailwindcss/base';
+@use 'reset';
+@use 'browser_default';
+
+
+/* Components */
+@use 'tailwindcss/components';
+@use 'buttons';
+@use 'form';
+@use 'font';
+
+/** Typography */
+//@use "";
+
+/* Utilities */
+@use 'tailwindcss/utilities';
+@use 'tailwindcss/screens';
+
+/** vendors */
+@use "vendors/ckeditor.css";
+
+/** Landing Site */
+@use "landing_custom.scss";
+//@use 'landing/_buttons';
+//@use 'landing/_choices';
+//@use 'landing/_contact';
+//@use 'landing/_footer';
+//@use 'landing/_general';
+//@use 'landing/_helper';
+//@use 'landing/_hero';
+//@use 'landing/_portfolio';
+//@use 'landing/_topnav';
+
+/* Modules */
+@use "variables";
+@use "switch";
+@use "menu";
+@use "tables";
+@use "chat";
+@use "dashboard";
+@use 'custom';
+@use 'dark_screen';
+@use 'mediaQuery';
+@use "color_scheme.scss";

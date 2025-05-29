@@ -1,0 +1,78 @@
+.ck-editor,
+.document-editor,
+.ck-editor__editable {
+    /*box-shadow: theme("boxShadow.sm");*/
+}
+
+
+.ck-content {
+    blockquote,
+    dl,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    figure,
+    p,
+    pre {
+        margin: revert !important;
+    }
+    ol,
+    ul {
+        list-style: revert !important;
+        margin: revert !important;
+        padding: revert !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: revert !important;
+        font-weight: revert !important;
+    }
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+        display: revert !important;
+        vertical-align: revert !important;
+    }
+}
+
+.ckc{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: revert !important;
+        font-weight: revert !important;
+        margin: revert;
+    }
+    p{
+        font-size: revert !important;
+        font-weight: revert !important;
+    }
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+        display: revert !important;
+        vertical-align: revert !important;
+    }
+}

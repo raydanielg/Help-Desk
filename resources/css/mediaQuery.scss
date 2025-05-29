@@ -1,0 +1,37 @@
+.ck.ck-editor__main>.ck-editor__editable{
+    background: transparent !important;
+}
+@media (min-width: 250px) and (max-width: 768px) {
+    .sidebar-left-top{
+        padding: 5px 12px;
+        .help-desk-logo{
+            width: 150px;
+        }
+    }
+    .top_bar{
+        flex-flow: column;
+        gap: 1rem;
+        padding-bottom: 2rem;
+        .placement-top-left{
+            align-items: center;
+            display: flex;
+            flex-flow: column;
+        }
+        .placement-top-right{
+            .mode-switcher{
+                margin-left: 0.8rem;
+                margin-right: 0.8rem;
+            }
+            .language_menu{
+                margin-right: 0;
+            }
+            .chat-top-bar{
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+}

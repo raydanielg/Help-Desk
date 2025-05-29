@@ -1,0 +1,34 @@
+i.check{
+    background-image: url('/images/svg/badge-check.svg');
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+i.cross{
+    background-image: url('/images/svg/circle-xmark.svg');
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.disabled_button{
+    cursor: not-allowed;
+    pointer-events: none;
+    transition-property: none;
+    opacity: 0.55;
+}
+.import_processing{
+    display: none;
+}
+.import_processing.active{
+    display: flex;
+}
+.import_processing .btn-spinner.importing{
+    border-color: #4f46e5;
+    border-left-color: transparent;
+    font-size: 34px;
+    margin: 20px auto;
+}

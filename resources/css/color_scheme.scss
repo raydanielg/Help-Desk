@@ -1,0 +1,552 @@
+
+.scheme-violet{
+    .bg-primary{
+        @apply bg-violet-600 #{!important};
+    }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-violet-600 #{!important};
+    }
+    .chat_bubble{
+        @apply border-violet-700 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-violet-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-violet-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-violet-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-violet-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-violet-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-violet-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-violet-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-violet-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-violet-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-violet-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-violet-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-violet-600 #{!important};
+  }
+}
+
+.scheme-orange{
+    .bg-primary{
+        @apply bg-orange-600 #{!important};
+    }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-orange-600 #{!important};
+    }
+    .chat_bubble{
+        @apply border-orange-700 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-orange-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-orange-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-orange-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-orange-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-orange-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-orange-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-orange-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-orange-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-orange-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-orange-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-orange-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-orange-600 #{!important};
+  }
+}
+.scheme-amber{
+    .bg-primary{
+        @apply bg-amber-600 #{!important};
+    }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-amber-600 #{!important};
+    }
+    .chat_bubble{
+        @apply border-amber-700 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-amber-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-amber-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-amber-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-amber-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-amber-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-amber-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-amber-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-amber-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-amber-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-amber-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-amber-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-amber-600 #{!important};
+  }
+}
+.scheme-yellow{
+    .chat_bubble{
+        @apply border-yellow-700 #{!important};
+    }
+    .bg-primary{
+        @apply bg-yellow-600 #{!important};
+    }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-yellow-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-yellow-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-yellow-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-yellow-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-yellow-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-yellow-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-yellow-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-yellow-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-yellow-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-yellow-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-yellow-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-yellow-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-yellow-600 #{!important};
+  }
+}
+.scheme-lime{
+    .chat_bubble{
+        @apply border-lime-700 #{!important};
+    }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-lime-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-lime-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-lime-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-lime-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-lime-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-lime-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-lime-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-lime-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-lime-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-lime-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-lime-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-lime-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-lime-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-lime-600 #{!important};
+  }
+}
+.scheme-green{
+    .chat_bubble{ @apply border-green-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-green-600 #{!important};
+    }
+    .bg-primary{
+        @apply text-green-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-green-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-green-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-green-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-green-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-green-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-green-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-green-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-green-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-green-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-green-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-green-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-green-600 #{!important};
+  }
+}
+.scheme-cyan{
+    .chat_bubble{ @apply border-cyan-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-cyan-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-cyan-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-cyan-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-cyan-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-cyan-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-cyan-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-cyan-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-cyan-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-cyan-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-cyan-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-cyan-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-cyan-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-cyan-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-cyan-600 #{!important};
+  }
+}
+.scheme-sky{
+    .chat_bubble{ @apply border-sky-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-sky-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-sky-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-sky-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-sky-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-sky-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-sky-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-sky-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-sky-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-sky-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-sky-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-sky-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-sky-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-sky-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-sky-600 #{!important};
+  }
+}
+.scheme-purple{
+    .chat_bubble{ @apply border-purple-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-purple-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-purple-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-purple-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-purple-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-purple-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-purple-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-purple-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-purple-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-purple-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-purple-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-purple-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-purple-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-purple-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-purple-600 #{!important};
+  }
+}
+.scheme-fuchsia{
+    .chat_bubble{ @apply border-fuchsia-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-fuchsia-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-fuchsia-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-fuchsia-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-fuchsia-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-fuchsia-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-fuchsia-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-fuchsia-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-fuchsia-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-fuchsia-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-fuchsia-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-fuchsia-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-fuchsia-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-fuchsia-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-fuchsia-600 #{!important};
+  }
+}
+.scheme-pink{
+    .chat_bubble{ @apply border-pink-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-pink-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-pink-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-pink-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-pink-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-pink-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-pink-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-pink-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-pink-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-pink-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-pink-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-pink-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-pink-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-pink-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-pink-600 #{!important};
+  }
+}
+.scheme-rose{
+    .chat_bubble{ @apply border-rose-700 #{!important}; }
+    .hover\:text-primary:hover, .bottom_text{
+        @apply text-rose-600 #{!important};
+    }
+    .bg-primary{
+        @apply bg-rose-600 #{!important};
+    }
+  .bg-indigo-600{
+    @apply bg-rose-600 #{!important};
+  }
+  .text-indigo-600{
+    @apply text-rose-600 #{!important};
+  }
+  .border-indigo-600{
+    @apply border-rose-600 #{!important};
+  }
+  .bg-indigo-700{
+    @apply bg-rose-700 #{!important};
+  }
+  .border-indigo-700{
+    @apply border-rose-700 #{!important};
+  }
+  .bg-indigo-600\/5{
+    @apply bg-rose-600/5 #{!important};
+  }
+  .hover\:text-indigo-600:hover{
+    @apply text-rose-600 #{!important};
+  }
+  .hover\:bg-indigo-600:hover{
+    @apply bg-rose-600 #{!important};
+  }
+  .hover\:bg-indigo-700:hover{
+    @apply bg-rose-700 #{!important};
+  }
+  .hover\:border-indigo-700:hover{
+    @apply border-rose-700 #{!important};
+  }
+  .hover\:border-indigo-600:hover{
+    @apply border-rose-600 #{!important};
+  }
+  .after\:bg-indigo-600:after{
+    @apply bg-rose-600 #{!important};
+  }
+}

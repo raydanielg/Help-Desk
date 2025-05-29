@@ -1,0 +1,157 @@
+.sec_chat{
+    .sidebar{
+        border: none;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 20px rgb(8 21 66 / 5%);
+        box-shadow: 0 0 20px rgb(8 21 66 / 5%);
+        .chat-left-aside{
+            .c-top{
+                padding: 15px 18px;
+                .media{
+                    display: -ms-flexbox;
+                    display: -webkit-box;
+                    display: flex;
+                    -ms-flex-align: start;
+                    -webkit-box-align: start;
+                    align-items: flex-start;
+                }
+                .about{
+                    float: left;
+                    margin-top: 5px;
+                    padding-left: 10px;
+                    .name{
+                        color: #2c323f;
+                        letter-spacing: 1px;
+                        font-weight: 500;
+                    }
+                    .status{
+                        color: #59667a;
+                        letter-spacing: 1px;
+                        font-size: 12px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .c-list{
+                height: calc(100% - 150px);
+                .entry{
+                    background-color: rgb(255 255 255 / 1)
+                }
+            }
+        }
+    }
+    .chat-area{
+        padding: 1rem;
+        border: none;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        letter-spacing: 0.5px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0 20px rgb(8 21 66 / 5%);
+        box-shadow: 0 0 20px rgb(8 21 66 / 5%);
+        background: #fff;
+        .chat-header{
+            border-bottom: 1px solid #f4f4f4;
+            .name{
+                font-weight: bold;
+            }
+            .status{
+                font-weight: 300;
+                font-size: 13px;
+            }
+        }
+        textarea{
+            &::-webkit-resizer{
+                display: none;
+            }
+        }
+        .messages{
+            width: 100%;
+            .message{
+                width: 100%;
+                .mt__wrap{
+                    width: 100%;
+                    .inline-block{
+                        width: auto;
+                        max-width: 95%;
+                        word-wrap: break-word;
+                    }
+                }
+            }
+        }
+    }
+    .user-image {
+        float: left;
+        width: 52px;
+        height: 52px;
+        margin-right: 5px;
+    }
+}
+.comment-box{
+    padding: 1rem;
+    height: 67vh;
+    max-height: 100%;
+    .chat-header{
+        border-bottom: 1px solid #f4f4f4;
+        .name{
+            font-weight: bold;
+        }
+        .status{
+            font-weight: 300;
+            font-size: 13px;
+        }
+    }
+    .user_icon {
+        border: 1px solid lightgray;
+        background: #2f365f;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reverse__order{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bg-blue {
+        background-color: #7562ca;
+    }
+    .user-comment-round{
+        border-radius: 0 10px 10px 10px;
+    }
+    .messages{
+        width: 100%;
+        .message{
+            width: 100%;
+            .mt__wrap{
+                width: 100%;
+                .inline-block{
+                    width: auto;
+                    max-width: 95%;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}
+.dark{
+    .sec_chat{
+        .sidebar{
+            .chat-left-aside{
+                .c-list{
+                    .entry{
+                        background-color: #262932;
+                        border-top: 1px solid #374558;
+                        border-right: 1px solid #374558;
+                        border-bottom: 1px solid #374558;
+                    }
+                }
+            }
+        }
+    }
+}

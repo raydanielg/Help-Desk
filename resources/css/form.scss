@@ -1,0 +1,161 @@
+.form-label {
+  @apply mb-2 block select-none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  @apply leading-normal block w-full border bg-white font-sans rounded text-left appearance-none relative focus:border-indigo-400 focus:ring;
+    padding: 3px 10px;
+    font-size: 15px;
+    height: 2.3rem;
+
+  &::placeholder {
+    @apply text-gray-500 opacity-100;
+  }
+}
+
+.form-textarea{
+    height: inherit;
+}
+
+.form-select {
+  @apply pr-6;
+
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAABGdBTUEAALGPC/xhBQAAAQtJREFUOBG1lEEOgjAQRalbGj2OG9caOACn4ALGtfEuHACiazceR1PWOH/CNA3aMiTaBDpt/7zPdBKy7M/DCL9pGkvxxVp7KsvyJftL5rZt1865M+Ucq6pyyF3hNcI7Cuu+728QYn/JQA5yKaempxuZmQngOwEaYx55nu+1lQh8GIatMGi+01NwBcEmhxBqK4nAPZJ78K0KKFAJmR3oPp8+Iwgob0Oa6+TLoeCvRx+mTUYf/FVBGTPRwDkfLxnaSrRwcH0FWhNOmrkWYbE2XEicqgSa1J0LQ+aPCuQgZiLnwewbGuz5MGoAhcIkCQcjaTBjMgtXGURMVHC1wcQEy0J+Zlj8bKAnY1/UzDe2dbAVqfXn6wAAAABJRU5ErkJggg==');
+  background-size: 0.7rem;
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+
+  &::-ms-expand {
+    @apply opacity-0;
+  }
+}
+
+.ticket-filters{
+    .search{
+        max-width: 35rem;
+    }
+    select.form-select, input{
+        height: 44px;
+    }
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+  @apply border-red-500 focus:ring focus:ring-red-200;
+}
+
+.form-error {
+  @apply text-red-700 mt-2 text-sm;
+}
+
+
+.form-select{
+    &:focus{
+        border-color: #9b4dca;
+        outline: 0;
+    }
+}
+
+.sel__filter{
+    position: relative;
+    .i__filter__list{
+        position: absolute;
+        width: calc(100% - 1.5rem);
+        left: 0;
+        z-index: 9999;
+        background: #fff;
+        ul{
+            display: flex;
+            flex-flow: column;
+            border-top: 1px solid lightgray;
+            margin: 0;
+            li {
+                list-style-type: none;
+                display: flex;
+                padding: 8px 10px;
+                border-bottom: 1px solid lightgray;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+                cursor: pointer;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.dark{
+    #ticketSubmit{
+        form.card {
+            background-color: #192132;
+            border: 1px solid #374558;
+        }
+        .form-input, .form-textarea, .form-select{
+            background-color: #192132;
+            border-color: #e2e8f0;
+        }
+        .border-gray-100{
+            border-color: #374558;
+        }
+    }
+    .sel__filter{
+        .i__filter__list{
+            background: #192132;
+        }
+    }
+}
+.grid{
+    .list-none{
+        svg{
+            fill: #94a3b8;
+        }
+    }
+}
+.tab-head{
+    ul{
+        li{
+            div{
+                cursor: pointer;
+                &.active{
+                    border-color: #1c64f2;
+                    color: #1c64f2;
+                }
+            }
+        }
+    }
+}
+.tab-content{
+    .t-content{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
+.p-nat{
+    a{
+        &:hover, &:focus, &.active{
+            background-color: #fff;
+        }
+    }
+}
+.dark{
+    .p-nat{
+        a{
+            &:hover, &:focus, &.active{
+                background-color: #1d1e26;
+            }
+        }
+    }
+}
+.ticket_comment_edit{
+    max-width: calc(100% - 40px) !important;
+}
+
+.ck.ck-editor{
+    max-width: 100% !important;
+}

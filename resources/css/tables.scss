@@ -1,0 +1,25 @@
+table{
+    &.ticket_list{
+        tr{
+            th{
+                padding: 16px 24px;
+                span{
+                    display: flex;
+                    align-items: center;
+                    .icons{
+                        margin-left: 10px;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        svg{
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
